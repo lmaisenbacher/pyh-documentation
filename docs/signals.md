@@ -4,7 +4,7 @@ In `pyh`, a signal is an experimental observable or the simulation of such an ob
 
 Signals are grouped into signal sets. The underlying idea is that certain simulations will only produce certain signals, e.g., a simulation that only includes two energy levels will only have one fluorescence signal corresponding to the transition between the two levels. All signal sets and signals are defined in [`pyha.def_signals`](https://gitlab.mpcdf.mpg.de/lmaisen/pyha/-/blob/master/def_signals.py), with each signal set and signal identified by a unique IDs, `SignalSetID` and `SignalID`, respectively.
 
-Some signals are composites of other signals, e.g., the Lyman signal is the sum of all Lyman decays, Lyman-$\alpha$, Lyman-$\beta$, ... Other signals might have the same numerical value, e.g., if there is only a single Lyman decay allowed then the sum of all Lyman decays is identical to that decay.
+Some signals are composites of other signals, e.g., the Lyman signal is the sum of all Lyman decays, Lyman-\\(\alpha\\), Lyman-$\beta$, ... Other signals might have the same numerical value, e.g., if there is only a single Lyman decay allowed then the sum of all Lyman decays is identical to that decay.
 
 ## Implementation
 
