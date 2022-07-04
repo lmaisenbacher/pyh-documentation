@@ -10,6 +10,14 @@ Upon evaluation, [`pyha.def_signals`](https://gitlab.mpcdf.mpg.de/lmaisen/pyha/-
 
 ## Signal sets and signals
 
-### The `OBEDMS` signal set
+### `OBEDMS2S6P` signal set (used in OBE implementation of DMS model for the 2S-6P transition)
 
-The `OBEDMS` signal set is the signal set used by the discrete momentum space (DMS) optical Bloch equations (OBEs), used to model the light force shift (LFS) of the 2S-6P transition in atomic hydrogen. Since these equations only include the 1S, 2S, and 6P levels, only Lyman-$\epsilon$ (6P $\rightarrow$ 1S) and Balmer-$\delta$ (6P $\rightarrow$ 2S) decays are included.
+The `OBEDMS2S6P` signal set is the signal set used in the OBE (optical Bloch equations) implementation of the discrete momentum space (DMS) model, used to model the light force shift (LFS) of the 2S-6P transition in atomic hydrogen. Since these equations only include the 1S, 2S, and 6P levels, only Lyman-$\epsilon$ (6P $\rightarrow$ 1S) and Balmer-$\delta$ (6P $\rightarrow$ 2S) decays are included.
+
+### `OBEDMSLymanEpsilon` signal set (used in interpolation of DMS model for the 2S-6P transition)
+
+The `OBEDMSLymanEpsilon` signal set is the signal set used in the OBE (optical Bloch equations) implementation of the discrete momentum space (DMS) model, used to model the light force shift (LFS) of the 2S-6P transition in atomic hydrogen. Since these equations only include the 1S, 2S, and 6P levels, only Lyman-$\epsilon$ (6P $\rightarrow$ 1S) and Balmer-$\delta$ (6P $\rightarrow$ 2S) decays are included.
+
+### `All2S6P` signal set (used in big model for the 2S-6P transition)
+
+The `All2S6P` signal set is the signal set used in the OBE (optical Bloch equations) implementation of the big model, used to model quantum interference and light shifts of the 2S-6P transition in atomic hydrogen.
