@@ -1,5 +1,10 @@
 # Signals
 
+* TOC
+{:toc}
+
+## Overview
+
 In `pyh`, a signal is an experimental observable or the simulation of such an observable. Currently, all signals correspond to fluorescence from atoms, i.e., photons emitted by the decay of an atom from a higher-lying state to a lower-lying state.
 
 Signals are grouped into signal sets. The underlying idea is that certain simulations will only produce certain signals, e.g., a simulation that only includes two energy levels will only have one fluorescence signal corresponding to the transition between the two levels. All signal sets and signals are defined in [`pyha.def_signals`](https://gitlab.mpcdf.mpg.de/lmaisen/pyha/-/blob/master/def_signals.py), with each signal set and signal identified by a unique IDs, `SignalSetID` and `SignalID`, respectively.
