@@ -25,7 +25,7 @@ The `OBEDMS2S6P` signal set is a signal set used in the OBE implementation of th
 
 ### `OBEDMSLymanEpsilon` signal set
 
-The `OBEDMSLymanEpsilon` signal set is a signal set used in the trajectory interpolation of the OBE implementation of the discrete momentum space (DMS) model. It only includes a single signal for Lyman-$\epsilon$ (6P $\rightarrow$ 1S) decays, `Lyman-epsilon`.
+The `OBEDMSLymanEpsilon` signal set is a signal set used in the trajectory interpolation of the OBE implementation of the discrete momentum space (DMS) model for the 2S-6P transition in atomic hydrogen and deuterium. It only includes a single signal for Lyman-$\epsilon$ (6P $\rightarrow$ 1S) decays, `Lyman-epsilon`.
 
 ### `All2S6P` signal set
 
@@ -33,4 +33,4 @@ The `All2S6P` signal set is a signal set used in the OBE implementation of the b
 
 ### `LymanEpsilon` signal set
 
-The `LymanEpsilon` signal set is a signal set used in the trajectory implementation of the OBE implementation of the big model. There are a total of 3 signal equations, and a total of 4 signals.
+The `LymanEpsilon` signal set is a signal set used in the trajectory implementation of the OBE implementation of the big model for the 2S-6P transition in atomic hydrogen and deuterium. There are a total of 3 signal equations, and a total of 4 signals.
