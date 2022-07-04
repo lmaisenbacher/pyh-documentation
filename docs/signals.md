@@ -19,11 +19,11 @@ def_signals.get_signals(SignalSetID)
 
 ### `OBEDMS2S6P` signal set
 
-The `OBEDMS2S6P` signal set is a signal set used in the OBE implementation of the discrete momentum space (DMS) model, used to model the light force shift (LFS) of the 2S-6P transition in atomic hydrogen. Since these equations only include the 1S, 2S, and 6P levels, only Lyman-$$\epsilon$$ (6P $$\rightarrow$$ 1S) and Balmer-$$\delta$$ (6P $$\rightarrow$$ 2S) decays are included.
+The `OBEDMS2S6P` signal set is a signal set used in the OBE implementation of the discrete momentum space (DMS) model, used to model the light force shift (LFS) of the 2S-6P transition in atomic hydrogen. Since these equations only include the 1S, 2S, and 6P levels, only Lyman-$\epsilon$ (6P $\rightarrow$ 1S) and Balmer-$\delta$ (6P $\rightarrow$ 2S) decays are included.
 
 ### `OBEDMSLymanEpsilon` signal set
 
-The `OBEDMSLymanEpsilon` signal set is a signal set used in the trajectory interpolation of the OBE implementation of the discrete momentum space (DMS) model. It only includes a single signal equation for Lyman-$$\epsilon$$ (6P $$\rightarrow$$ 1S) decay and thus only a single corresponding signal, `Lyman-epsilon`.
+The `OBEDMSLymanEpsilon` signal set is a signal set used in the trajectory interpolation of the OBE implementation of the discrete momentum space (DMS) model. It only includes a single signal equation for Lyman-$\epsilon$ (6P $\rightarrow$ 1S) decay and thus only a single corresponding signal, `Lyman-epsilon`.
 
 ### `All2S6P` signal set
 
